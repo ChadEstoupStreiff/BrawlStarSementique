@@ -39,7 +39,7 @@ def _get_individuals(class_name):
 def get_brawlers() -> List:
     results = []
     for sub_class in _get_subclasses("brawler"):
-        results.extend(_get_individuals(sub_class))
+        results.extend([f"{sub_class} > {row}" for row in _get_individuals(sub_class)])
     return results
 
 
@@ -47,7 +47,7 @@ def get_brawlers() -> List:
 def get_maps() -> List:
     results = []
     for sub_class in _get_subclasses("map"):
-        results.extend(_get_individuals(sub_class))
+        results.extend([f"{sub_class} > {row}" for row in _get_individuals(sub_class)])
     return results
 
 
