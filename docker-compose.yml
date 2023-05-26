@@ -7,6 +7,8 @@ services:
     restart: always
     ports:
       - ${PORT_APP}:8501
+    volumes:
+      - ./data:/data
     networks:
       - sementique-ales
 

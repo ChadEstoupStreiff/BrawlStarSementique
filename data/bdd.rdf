@@ -1,0 +1,1504 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-3="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3">
+        <owl:versionIRI rdf:resource="urn:absolute:BrawlStar"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasMovingSpeed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasMovingSpeed">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeedOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasRange -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasRange">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasRange"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasReloadSpeed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hasReloadSpeed">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeedOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeedOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rangeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rangeOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeedOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeedOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#health -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#health">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#properties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#properties"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#properties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#map"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawler"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#acuteAngle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#acuteAngle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#amber -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#amber">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ash -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ash">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#backyardBowl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#backyardBowl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#barley -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#barley">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1140</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2100</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#beachBawl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#beachBawl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#belle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#belle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1560</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3900</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bellesRock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bellesRock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bibi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bibi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2100</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6900</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2700</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bonnie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bonnie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1500</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1740</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bull -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bull">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3000</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buster -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buster">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buzz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buzz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3150</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#byron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#byron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1530</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#canalGrande -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#canalGrande">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#carl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#carl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#centerControl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#centerControl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#chester -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#chester">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5250</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colette -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colette">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1500</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3240</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#coverCrowd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#coverCrowd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crystalArcade -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crystalArcade">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#darryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#darryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7950</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#deepEnd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#deepEnd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleSwoosh -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleSwoosh">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleTrouble -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleTrouble">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#drySeason -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#drySeason">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dynamike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dynamike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#edgar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#edgar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1620</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#el-primo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#el-primo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2160</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9000</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#emz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#emz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2240</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#eve -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#eve">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2340</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5350</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2100</untitled-ontology-3:health>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6450</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#flaringPhoenix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#flaringPhoenix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#frank -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#frank">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1860</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gale -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gale">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2520</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemFort -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemFort">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gene -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gene">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#goldarmGluch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#goldarmGluch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gray -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gray">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1740</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4950</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#griff -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#griff">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3510</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#grom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#grom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1590</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1410</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardLimits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardLimits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardRockMine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardRockMine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotPotato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotPotato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ironCover -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ironCover">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jacky -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jacky">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1860</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#janet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#janet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1500</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jessie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jessie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1590</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#kaboomCanyon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#kaboomCanyon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#layerCake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#layerCake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#leon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#leon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2000</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2340</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5700</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#maisie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#maisie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mandy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mandy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#max -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#max">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2040</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#meg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#meg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2480</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mortis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mortis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1350</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5700</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mr-p -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mr-p">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2280</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3150</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3900</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nita -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nita">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1440</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">6000</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openZone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openZone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#otis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#otis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#outInTheOpen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#outInTheOpen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3510</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#parallelPlays -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#parallelPlays">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#penny -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#penny">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1410</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pinholePunt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pinholePunt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#piper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#piper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1465</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#poco -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#poco">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1840</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5550</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#r-t -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#r-t">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1450</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5850</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ringOfFire -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ringOfFire">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rockwallBrawl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rockwallBrawl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ruffs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ruffs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1680</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#safeZone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#safeZone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sam -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sam">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2400</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8100</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sandy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sandy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1350</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5700</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#scorchedStone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#scorchedStone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shelly -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shelly">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2250</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5700</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shootingStar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shootingStar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#skullCreek -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#skullCreek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#snakePrairie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#snakePrairie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sneakyFields -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sneakyFields">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#spike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#spike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2520</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3600</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#split -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#split">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sprout -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sprout">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1470</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4500</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#squeak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#squeak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1620</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5400</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#stu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#stu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1620</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4350</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superBeach -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superBeach">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#reloadSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#range"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#movingSpeed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#surge -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#surge">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1770</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1980</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4800</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tick -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tick">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1920</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3300</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#wilow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#wilow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1800</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3750</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#8-bit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#8-bit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
+        <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
+        <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
+        <untitled-ontology-3:damage rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2880</untitled-ontology-3:damage>
+        <untitled-ontology-3:health rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7200</untitled-ontology-3:health>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
