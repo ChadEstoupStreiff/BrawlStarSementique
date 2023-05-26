@@ -1,20 +1,6 @@
 import streamlit as st
-from sementic import load_rdf_file, test_query, get_brawlers, get_maps
-
-
-def test_ui() -> None:
-    with st.sidebar:
-        submit = st.form("Test").form_submit_button(
-            "Test Request", use_container_width=True
-        )
-
-    if submit:
-        results = test_query()
-        st.write(results)
-        # for row in results:
-        #     subject, predicate, obj = row
-        #     st.write(f"{subject}, {predicate}, {obj}")
-
+from sementic import load_rdf_file, get_brawlers, get_maps
+from time import sleep
 
 def map_ui() -> None:
     with st.sidebar:
@@ -26,7 +12,9 @@ def map_ui() -> None:
         )
 
     if submit:
-        pass
+        with st.spinner("Searching ..."):
+            sleep(3)
+            st.error("In dev ...")
 
 
 def brawler_ui() -> None:
@@ -39,7 +27,9 @@ def brawler_ui() -> None:
         )
 
     if submit:
-        pass
+        with st.spinner("Searching ..."):
+            sleep(3)
+            st.error("In dev ...")
 
 
 def compatibility_ui() -> None:
@@ -53,7 +43,9 @@ def compatibility_ui() -> None:
         )
 
     if submit:
-        pass
+        with st.spinner("Searching ..."):
+            sleep(3)
+            st.error("In dev ...")
 
 
 if __name__ == "__main__":
@@ -74,7 +66,6 @@ if __name__ == "__main__":
         st.success("RDF DataBase successfully loaded")
 
     # Display UI
-    test_ui()
     map_ui()
     brawler_ui()
     compatibility_ui()
