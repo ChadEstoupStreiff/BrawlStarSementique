@@ -308,6 +308,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#acuteAngle">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -316,6 +318,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#amber">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -329,6 +333,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ash">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -342,6 +348,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#backyardBowl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -350,6 +358,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#barley">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -363,6 +374,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bea">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -376,6 +390,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#beachBawl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -384,6 +400,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#belle">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -397,6 +416,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bellesRock">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -405,6 +426,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bibi">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -418,6 +441,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bo">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -431,6 +456,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bonnie">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -444,6 +472,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brock">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -457,6 +488,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bull">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -470,6 +503,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buster">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -483,6 +518,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#buzz">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -496,6 +533,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#byron">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -509,6 +549,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#canalGrande">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
     </owl:NamedIndividual>
     
 
@@ -517,6 +560,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#carl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -530,6 +575,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#centerControl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -538,6 +584,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#chester">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -551,6 +599,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colette">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -564,6 +614,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#colt">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -577,6 +630,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#coverCrowd">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
     </owl:NamedIndividual>
     
 
@@ -585,6 +641,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crow">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -598,6 +656,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#crystalArcade">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -606,6 +666,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#darryl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -619,6 +681,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#deepEnd">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -635,6 +699,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleSwoosh">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -643,6 +709,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#doubleTrouble">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -651,6 +720,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#drySeason">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -659,6 +730,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dynamike">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -672,6 +745,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#edgar">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -685,6 +760,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#el-primo">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -698,6 +775,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#emz">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -711,6 +790,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#eve">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -724,6 +806,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fang">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -746,6 +830,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#flaringPhoenix">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
     </owl:NamedIndividual>
     
 
@@ -754,6 +840,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#frank">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -767,6 +855,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gale">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -780,6 +870,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemFort">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -788,6 +881,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gene">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -801,6 +897,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#goldarmGluch">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -809,6 +907,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gray">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -822,6 +922,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#griff">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -835,6 +938,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#grom">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -848,6 +953,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gus">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -861,6 +968,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardLimits">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#unbreakableWalls"/>
     </owl:NamedIndividual>
     
 
@@ -869,6 +979,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hardRockMine">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#gemgrab"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -877,6 +989,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotPotato">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
     </owl:NamedIndividual>
     
 
@@ -885,6 +1000,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ironCover">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
     </owl:NamedIndividual>
     
 
@@ -893,6 +1011,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jacky">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -906,6 +1026,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#janet">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -919,6 +1040,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#jessie">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -932,6 +1055,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#kaboomCanyon">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -956,6 +1081,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#layerCake">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
     </owl:NamedIndividual>
     
 
@@ -964,6 +1091,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#leon">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -977,6 +1107,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lola">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1006,6 +1138,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lou">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1019,6 +1154,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#maisie">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1032,6 +1169,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mandy">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1045,6 +1185,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#max">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1068,6 +1210,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#meg">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1081,6 +1225,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mortis">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
@@ -1094,6 +1240,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#mr-p">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1107,6 +1256,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nani">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1120,6 +1271,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#nita">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1141,6 +1294,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openZone">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1149,6 +1304,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#otis">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1162,6 +1319,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#outInTheOpen">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#knockout"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1170,6 +1329,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pam">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1183,6 +1344,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#parallelPlays">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#unbreakableWalls"/>
     </owl:NamedIndividual>
     
 
@@ -1191,6 +1355,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#penny">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1204,6 +1370,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#pinholePunt">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1212,6 +1380,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#piper">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#marksman"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
@@ -1225,6 +1395,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#poco">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1238,6 +1410,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#r-t">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1251,6 +1425,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rico">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1264,6 +1441,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ringOfFire">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1272,6 +1452,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rockwallBrawl">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
     </owl:NamedIndividual>
     
 
@@ -1280,6 +1464,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#rosa">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tank"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
@@ -1293,6 +1479,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#ruffs">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#support"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
@@ -1306,6 +1494,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#safeZone">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#heist"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
     </owl:NamedIndividual>
     
 
@@ -1314,6 +1505,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sam">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#short"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1327,6 +1520,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sandy">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#fast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1340,6 +1535,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#scorchedStone">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#water"/>
     </owl:NamedIndividual>
     
 
@@ -1348,6 +1546,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shelly">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superFast"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1361,6 +1562,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#shootingStar">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1377,6 +1580,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#skullCreek">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#showdown"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
     </owl:NamedIndividual>
     
 
@@ -1394,6 +1599,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#snakePrairie">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#bounty"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
     </owl:NamedIndividual>
     
 
@@ -1402,6 +1609,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sneakyFields">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
     </owl:NamedIndividual>
     
 
@@ -1410,6 +1619,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#spike">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1423,6 +1634,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#split">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#hotzone"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#largeBushSurface"/>
     </owl:NamedIndividual>
     
 
@@ -1431,6 +1644,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#sprout">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#longWalls"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1444,6 +1659,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#squeak">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1457,6 +1674,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#stu">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#assassin"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
@@ -1470,6 +1689,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superBeach">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#brawlBall"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
     </owl:NamedIndividual>
     
 
@@ -1503,6 +1724,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#surge">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1516,6 +1739,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tara">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1529,6 +1755,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#tick">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#artillery"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
@@ -1558,6 +1786,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#wilow">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#controller"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#dense"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#long"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#slow"/>
@@ -1571,6 +1801,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#8-bit">
         <rdf:type rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#damageDealer"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#lanes"/>
+        <untitled-ontology-3:hasMapTag rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#openField"/>
         <untitled-ontology-3:hasMovingSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superSlow"/>
         <untitled-ontology-3:hasRange rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#superLong"/>
         <untitled-ontology-3:hasReloadSpeed rdf:resource="http://www.semanticweb.org/chad/ontologies/2023/4/untitled-ontology-3#medium"/>
